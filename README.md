@@ -12,7 +12,7 @@ function mystery(a) {
 }
 ```
 
-// The mystery fucntion is used as a place holder in this context holding the sliced array value for when it is recalled recursivley until the array goes back to a single element and then executes them all until it finds the greatest value.
+// The mystery fucntion is cutting the list or array down until there is 1 element and then returns either foo if it is greater than the first element or returns the value in the first element if foo is less than the first element
 
 I had stack overflows help with finding out what the slice function did.
 
